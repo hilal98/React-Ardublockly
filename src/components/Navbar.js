@@ -37,6 +37,7 @@ import {
   faLightbulb,
   faCode,
   faPuzzlePiece,
+  faRibbon,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import * as Blockly from "blockly";
@@ -298,6 +299,13 @@ class Navbar extends Component {
                 icon: faUserCircle,
                 link: "/user",
                 restriction: this.props.isAuthenticated,
+              },
+              {
+                text: Blockly.Msg.navbar_badges,
+                icon:  faRibbon,
+                link: "/badges",
+                restriction: this.props.isAuthenticated,
+
               },
               {
                 text: Blockly.Msg.navbar_logout,

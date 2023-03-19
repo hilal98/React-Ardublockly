@@ -8,8 +8,7 @@ import {
   resetTutorial,
   tutorialProgress,
 } from "../../actions/tutorialActions";
-import { progress } from "../../actions/tutorialBuilderActions";
-
+import { progress, tutorialId } from "../../actions/tutorialBuilderActions";
 import { clearMessages } from "../../actions/messageActions";
 
 import clsx from "clsx";
@@ -22,6 +21,7 @@ import { withStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
+import {bagdes} from "../Badges/die_badges.js";
 
 import {
   faCheck,
@@ -37,7 +37,6 @@ import Tooltip from "@material-ui/core/Tooltip";
 import IconButton from "@material-ui/core/IconButton";
 import Snackbar from "../Snackbar";
 import Divider from "@material-ui/core/Divider";
-
 const styles = (theme) => ({
   outerDiv: {
     position: "absolute",
@@ -273,6 +272,15 @@ class TutorialHome extends Component {
                         ) : null}
                       </svg>
                     </div>
+                    <div>
+                      {tutorialStatus === "Success" &&  (
+                      bagdes.map((data, key) => {
+                        key= {key}
+                      return (<img width= "20%" src = {data.image} title={data.name} alt = "Fehler"/>);
+                      }))}
+                    </div>
+                    
+
                     <div
                       className={clsx(
                         this.props.classes.outerDiv,

@@ -1375,6 +1375,7 @@ Blockly.Msg.navbar_login = "Einloggen";
 Blockly.Msg.navbar_account = "Konto";
 Blockly.Msg.navbar_logout = "Abmelden";
 Blockly.Msg.navbar_settings = "Einstellungen";
+Blockly.Msg.navbar_bagdes = "Meine Badges";
 
 /**
  * Codeviewer

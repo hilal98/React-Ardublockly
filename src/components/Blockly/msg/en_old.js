@@ -1203,6 +1203,7 @@ Blockly.Msg.navbar_login = "Login";
 Blockly.Msg.navbar_account = "Account";
 Blockly.Msg.navbar_logout = "Logout";
 Blockly.Msg.navbar_settings = "Settings";
+Blockly.Msg.navbar_badges = "My Badges";
 
 Blockly.Msg.codeviewer_arduino = "Arduino Source Code";
 Blockly.Msg.codeviewer_xml = "XML Blocks";

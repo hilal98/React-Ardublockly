@@ -25,6 +25,7 @@ import Account from "../User/Account";
 import News from "../News";
 import Faq from "../Faq";
 import CodeEditor from "../CodeEditor/CodeEditor";
+import BadgesHome from "../Badges/BadgesHome";
 
 class Routes extends Component {
 
@@ -97,6 +98,10 @@ class Routes extends Component {
           {/* settings */}
           <PublicRoute path="/settings" exact>
             <Settings />
+          </PublicRoute>
+          {/* badges */ }
+          <PublicRoute path="/Badges" exact>
+            <BadgesHome />
           </PublicRoute>
           {/* privacy */}
           <PublicRoute path="/impressum" exact>

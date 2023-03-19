@@ -154,6 +154,7 @@ export const UI = {
   button_next: "nächster Schritt",
   button_tutorial_overview: "Tutorial Übersicht",
   button_login: "Anmelden",
+  button_badges: "Badges",
 
   /**
    *
@@ -251,6 +252,7 @@ export const UI = {
   login_osem_account_02: "Account um dich einzuloggen",
   login_lostpassword: "Du hast dein Passwort vergessen?",
   login_createaccount: "Falls du noch keinen Account hast erstellen einen auf ",
+  
   /**
    * Navbar
    */
@@ -265,6 +267,19 @@ export const UI = {
   navbar_account: "Konto",
   navbar_logout: "Abmelden",
   navbar_settings: "Einstellungen",
+  navbar_badges: "Meine Badges",
+
+
+  /**
+   * Badges
+   */
+
+  badges_head : "Meine Badges",
+  badges_noBadgesYet: "Du hast noch keine Badges.",
+  badges_tutoriallink: "Tutorial",
+  badges_tutoriallink1: "Schliese jetzt ein",
+  badges_tutoriallink2: "ab",
+
 
   /**
    * Codeviewer

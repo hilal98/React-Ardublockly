@@ -149,6 +149,7 @@ export const UI = {
   button_next: "Next step",
   button_tutorial_overview: "Tutorial overview",
   button_login: "Login",
+  button_badges: "Badges",
 
   /**
    *
@@ -199,7 +200,16 @@ export const UI = {
   labels_here: "here",
   labels_username: "Email or username",
   labels_password: "Password",
-
+  
+  /**
+   * Badges
+   */
+  badges_head: "My Bagdes",
+  badges_noBadgesYet: "You don't have any badges yet.",
+  badges_tutoriallink: "tutorial",
+  badges_tutoriallink1: "Complete a ",
+  badges_tutoriallink2: "now.",
+  
   /**
    * Tutorials
    */
@@ -261,6 +271,7 @@ export const UI = {
   navbar_account: "Account",
   navbar_logout: "Logout",
   navbar_settings: "Settings",
+  navbar_badges: "My Badges",
 
   /**
    * Codeviewer
